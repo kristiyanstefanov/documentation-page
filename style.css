@@ -1,0 +1,453 @@
+body{
+  background-color: black;
+  
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.rain {
+    height: 800vh;  
+    background: url(https://drive.google.com/uc?id=1pcwrgMOsliYeP21sRtbZ3Is76aJt3yiB);
+    animation: rain .3s linear infinite;
+
+
+}
+
+.rain::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100;
+    background: #fff;
+    animation: lighting .3s linear infinite;
+    opacity: 0;
+
+}
+
+@keyframes rain {
+    0%{
+        background-position: 0% 0%;
+         
+    }
+    100%{
+        background-position: 20% 100%;
+    }
+}
+
+
+
+.crushblock {
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border-style: dashed;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.crushblockmariya {
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border-color: gray;
+    border-width: 20px;
+    border-style: double;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+.crushblockslav {
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border-color: red;
+    border-style:double;
+    border-width: 20px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.crushblockslaveya {
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border-color: pink;
+    border-style:double;
+    border-width: 20px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.crushblockmatiya {
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border-color: purple;
+    border-style:double;
+    border-width: 20px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.crushblockjoana {
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border-color: orange;
+    border-style:double;
+    border-width: 20px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+
+.crushblockmargarita {
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border-color: yellowgreen;
+    border-style:double;
+    border-width: 20px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+#imgmariya {
+    margin-top: -3px;
+    margin-left:1px;
+    width: 200px;
+    height: 280px;
+    float: left;
+    border-style:solid;
+    border-width: 10px;
+    border-color: gray;
+
+}
+
+#imgslava {
+    
+    width: 200px;
+    height: 210px;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+
+}
+
+#imgslaveya {
+    
+    width: 200px;
+    height: 260px;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 18px;
+    border-color: pink;
+
+}
+
+#imgmatiya {
+    
+    width: 200px;
+    height: 280px;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 0px;
+    border-color: purple;
+
+}
+
+#imgjoana {
+    
+    width: 200px;
+    height: 210px;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 0px;
+    border-color: orange;
+
+}
+
+#imgmargarita {
+    
+    width: 200px;
+    height: 280px;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 0px;
+    border-color: yellowgreen;
+
+}
+
+.navbar
+{  
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    top:0;
+    left: 0;
+    text-align: center;
+    color: yellow;
+}
+
+.crushnav {
+    display: block;
+    color: yellow;
+    margin-top: 80px;
+    font-size: 25px;
+    border-style: double; 
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#crushbiomariya {
+    text-align: center;
+    margin-top: -18px;
+    font-size: 30px;
+    color: white;
+    border-style:solid;
+    border-color: gray;
+   
+}
+#crushbioslaveya {
+    text-align: center;
+    margin-top: -18px;
+    font-size: 30px;
+    color: white;
+    border-style:solid;
+    border-color: pink;
+   
+}
+
+#crushbioslava{
+    text-align: center;
+    margin-top: -18px;
+    font-size: 30px;
+    color: white;
+    border-style:solid;
+    border-color:red;
+   
+}
+
+#crushbiomatiya{
+    text-align: center;
+    margin-top: -18px;
+    font-size: 30px;
+    color: white;
+    border-style:solid;
+    border-color:purple;
+   
+}
+
+#crushbiojoana{
+    text-align: center;
+    margin-top: -18px;
+    font-size: 30px;
+    color: white;
+    border-style:solid;
+    border-color:orange;
+   
+}
+
+#crushbiomargarita{
+    text-align: center;
+    margin-top: -18px;
+    font-size: 30px;
+    color: white;
+    border-style:solid;
+    border-color:yellowgreen;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+
+.crushstats{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 500px;
+}
+
+#statsmariya {
+    background-color: blue;
+    text-align: left;
+    margin-top: -30px;
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 693px;
+    border-color: gray;
+}
+#statsslaveya {
+    background-color: blue;
+    text-align: left;
+    margin-top: -30px;
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 713px;
+    border-color: pink;
+}
+
+#statsslava {
+    background-color: blue;
+    text-align: left;
+    margin-top: -30px;
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 763px;
+    border-color: red;
+
+}
+
+#statsmatiya {
+    background-color: blue;
+    text-align: left;
+    margin-top: -30px;
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 703px;
+    border-color: purple;
+
+}
+
+#statsjoana {
+    background-color: blue;
+    text-align: left;
+    margin-top: -30px;
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 765px;
+    border-color: orange;
+
+}
+
+#statsmargarita {
+    background-color: blue;
+    text-align: left;
+    margin-top: -30px;
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 700px;
+    border-color: yellowgreen;
+
+}
+
+.statstxt {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.ulstats{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+#bioblockmariya {
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 695px;
+    margin-top: -700px;
+    margin-left: 594px;
+    text-align: center;
+    border-style: solid;
+    border-color:gray;
+
+}
+
+#bioblockslaveya {
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 715px;
+    margin-top: -720px;
+    margin-left: 594px;
+    text-align: center;
+    border-style: solid;
+    border-color:pink;
+
+}
+
+#bioblockslava {
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 765px;
+    margin-top: -770px;
+    margin-left: 594px;
+    text-align: center;
+    border-style: solid;
+    border-color:red;
+
+}
+
+#bioblockmatiya {
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 705px;
+    margin-top: -710px;
+    margin-left: 594px;
+    text-align: center;
+    border-style: solid;
+    border-color:purple;
+
+}
+
+#bioblockjoana {
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 765px;
+    margin-top: -770px;
+    margin-left: 594px;
+    text-align: center;
+    border-style: solid;
+    border-color:orange;
+
+}
+
+#bioblockmargarita {
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 698px;
+    margin-top: -705px;
+    margin-left: 594px;
+    text-align: center;
+    border-style: solid;
+    border-color:yellowgreen;
+
+}
+
+
+.biotext {
+    font-size: 30px;
+}
